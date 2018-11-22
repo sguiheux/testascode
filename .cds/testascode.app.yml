@@ -13,4 +13,4 @@ deployments:
       value: "30"
     version:
       type: string
-      value: '{{.git.hash}}'
+      value: '{{.cds.version}}'
