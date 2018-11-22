@@ -1,0 +1,5 @@
+name: testascode
+version: v1.0
+pipeline: testascode
+application: testascode
+platform: containers-dev

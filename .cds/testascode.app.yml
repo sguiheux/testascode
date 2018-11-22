@@ -1,0 +1,16 @@
+version: v1.0
+name: testascode
+deployments:
+  containers-dev:
+    deployment.token:
+      type: password
+      value: 25ac6a4ca19840668613e1ff47b6da50
+    retry.delay:
+      type: string
+      value: "10"
+    retry.max:
+      type: string
+      value: "30"
+    version:
+      type: string
+      value: '{{.git.hash}}'

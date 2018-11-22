@@ -1,0 +1,8 @@
+version: v1.0
+name: testascode
+jobs:
+- job: New Job
+  steps:
+  - script:
+    - echo 'coucou'
+  - deploy: '{{.cds.application}}'
